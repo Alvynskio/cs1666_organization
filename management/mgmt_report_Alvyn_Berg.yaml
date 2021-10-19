@@ -1,0 +1,22 @@
+# Magagment week end report
+manager_name: "Alvyn Berg"
+week: 3
+# Specific goals:
+goal:
+  - desc: "Main: Spawn player image and move it around the window to collide with stone platforms and a 'level-cleared' hit-box."
+    prs: []
+    status: ""
+  - desc: "Networking team: Each person on Networking team builds a web-server, following the final project in the Rust Book"
+    prs: []
+    status: ""
+  - desc: "Physics Team:  Implement basic gravity and basic movement (acceleration and jumping)"
+    prs: []
+    status: ""
+# Team member evalution
+team_members:
+  PITTIDHERE:
+    score: 0
+    desc: ""
+  PITTIDHERE:
+    score: 0
+    desc: ""
