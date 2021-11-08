@@ -22,18 +22,33 @@
 1. 10/20 - 10/26
 	* Manager: Jake Sweeney
 	* Goals:
-		1. GOALHERE
-		...
+		1. Main: Get the character animated (left and right movement animation, 
+		         as well as jumping animation), and add a main menu
+		3. Networking team: Create a basic server that receives player locations 
+		         and broadcasts them to a client program
+		5. Physics Team:  Implement rectangle colliders for player, floor tiles, 
+		         and portal mechanics
 1. 10/27 - 11/2
 	* Manager: Kira Tsvetkova
 	* Goals:
-		1. GOALHERE
-		...
+		1. Basic graphics done (all sprites and level assets)
+		2. Basic rigidbody physics system done (rectangular colliders that have gravity/weight/friction)
+		3. Basic portal creation/traversal (objects can teleport but do not conserve momentum)
+		4. One basic "test" level to show off mechanics
+		5. Progress towards online functionality
 1. 11/3 - 11/9
 	* Manager: Austin Brothers
 	* Goals:
-		1. GOALHERE
-		...
+		1. Main: 
+		 	- Create a bugs markdown file, to monitor bugs found with the game. Start fixing bugs as they are found. 
+		 	- Implement a system to support multiple levels.
+		2. Networking:
+			- Have host and remote instances communicate across two separate systems.
+			- Send and unpack bytes for animations an portals so remote instance reflects portal postitions and animations of host instance.
+		3. Physics:
+			- Add block and player's ability to carry block. Implement collision resolutions for block object.
+			- Work on conserving momentum when hopping through a ground portal to a wall portal. If player has momentum in the y direction
+			and enters a ground portal, that momentum should be conserved in the x direction, when exiting a wall portal.
 1. 11/10 - 11/16
 	* Manager: Evan Moran
 	* Goals:
